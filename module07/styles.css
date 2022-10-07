@@ -1,0 +1,25 @@
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(251, 251, 251, 0.979);
+}
+
+article {
+    column-count: 2;
+    column-width: 20rem;
+    /* columns: 2 20rem; */
+}
+
+h1 {
+    font-weight: 700;
+    background-color: lightyellow;
+    text-align: center;
+}
+
+article,
+p {
+    font-weight: 400;
+    margin-top: 0px;
+    line-height: 1.5em;
+    padding: 0 20px;
+}

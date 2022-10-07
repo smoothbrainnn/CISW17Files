@@ -1,0 +1,9 @@
+body {
+    margin: 0 auto;
+    max-width: 75%;
+    background-color:rgb(249, 249, 249);
+    color: slate;
+}
+.navbar {
+    list-style-type: "→ ";
+}
