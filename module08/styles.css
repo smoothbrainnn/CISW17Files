@@ -5,12 +5,8 @@ https://coolors.co/
 
 #343434 Dark color for fonts on a light background
 #F7FFF7 light color for fonts on a dark background
-
 */
-
-
-/* Global styles
-------------------------------------*/
+/* Global styles */
 html {
     box-sizing: border-box;
   }
@@ -22,7 +18,8 @@ html {
     color: #343434;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
     font-size: 18px;
     line-height: 1.5;
   }
@@ -73,16 +70,14 @@ html {
   }
   
   
-  /* Profile
-  ------------------------------------*/
+  /* Profile */
   header {
     /* background: ; */
     /* color: ; */
   }
   
   
-  /* Projects
-  ------------------------------------*/
+  /* Projects */
   .projects {
     /* background: ; */
   }
@@ -107,8 +102,7 @@ html {
     margin-top: 0;
   }
   
-  /* Education
-  ------------------------------------*/
+  /* Education */
   .education {
     /* background-color: ; */
     background-position: top right;
@@ -118,9 +112,7 @@ html {
     width: 60%;
   }
   
-  
-  /* Contact Info
-  ------------------------------------*/
+  /* Contact Info*/
   footer {
     /* background: ; */
     /* color: ; */
@@ -135,9 +127,7 @@ html {
     /* color: ; */
   }
 
-
-/* Responsive
-------------------------------------*/
+/* Responsive*/
 @media screen and (min-width:750px){
   header, footer {
     text-align: center;
